@@ -2,12 +2,17 @@
 a1 p1.2 c 
 Raey Getahun
 rgetahun@jacobs-university.de*/
+
 #include <stdio.h>
-int main() {
+
+int main(){
+
     int result; 
     result = (2 + 7) * 9 / 3;
     printf("The result is %d\n", result);
     return 0;
+    
 }
+
 /*the reason why the program didn't give the correct result
 is that line 5 didn't contain the variable result*/
