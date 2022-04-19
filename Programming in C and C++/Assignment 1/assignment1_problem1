@@ -1,0 +1,19 @@
+/*CH - 230 - A
+a1_p1.c
+Raey Getahun
+rgetahun@jacobs - university.de*/
+#include <stdio.h>
+int main()
+{
+    double result;/*The result of our calculation*/
+    result = (3.0 + 1.0) / 5.0;
+    printf("the value of 4/5 is %1f\n", result);
+    return 0;
+}
+/*The reason why the result were 0.0000 is because the 
+operands were int and this made the result to be int.
+Thus evenif the correct result was 0.8, only the zero 
+is displayed. The other zeros that comes after the decimal
+point is because of the % 1f which is a double float.
+Making atleast one operand a double will ensure that the 
+result of the operation will not be truncated into an integer.*/
