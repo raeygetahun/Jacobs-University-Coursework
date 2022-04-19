@@ -1,0 +1,22 @@
+/*CH-230-A
+a1 p1.2 c 
+Raey Getahun
+rgetahun@jacobs-university.de*/
+
+#include <stdio.h>
+
+int main(){
+
+    float result; /* The result of the division */
+    int a = 5;
+    float b = 13.5;
+    result = a / b;
+    printf("The result is %f\n", result);
+    return 0;
+    
+}
+
+/*The first error is not putting # before include
+The second is the formating specification. 
+Since the value on result is float, %d should be replaced by %f 
+Third to write a comment we use * not ∗ */
