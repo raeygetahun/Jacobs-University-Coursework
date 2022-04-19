@@ -1,0 +1,22 @@
+/* 
+    CH-230-A
+    a1_p6.c
+    Raey Getahun
+    r.getahun@jacobs-university.de
+*/
+
+#include <stdio.h>
+
+int main() {
+
+    char character = 'F';
+    int cval;
+    
+    cval = character; //this assigns the character as an ascii value to cval. 
+    cval = cval + 3; //this increments the ASCII value of the cval.
+
+    printf("The letter is %c and the ASCII is %d\n", cval, cval);
+    /*this prints the value of cval once as a character and once as the ASCII value of the character.*/
+    return 0;
+    
+}
